@@ -1,0 +1,76 @@
+body {
+  background: #18231c;
+  color: #f2ead8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card {
+  width: 320px;
+  padding: 2rem;
+  text-align: center;
+  background: #26382b;
+  border: 1px solid #526653;
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+.plant {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.greeting {
+  font-size: 0.85rem;
+  color: #b8c9a8;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0 0.25rem;
+}
+
+.weather-icon {
+  font-size: 3rem;
+}
+
+.temperature {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.condition {
+  color: #c8d4bd;
+  margin-top: 0;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #b8c9a8;
+}
+.weather-card::before {
+  content: "✦  ❀  ✦";
+  display: block;
+  color: #8fa67f;
+  font-size: 0.9rem;
+  letter-spacing: 0.4rem;
+  margin-bottom: 1rem;
+}
